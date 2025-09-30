@@ -186,6 +186,28 @@ button.loading::after {
   gap: 0.5rem;
 }
 
+.copy-btn {
+  padding: 10px 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #a10303;
+  transition: all 0.2s ease;
+  width: auto; 
+}
+
+.copy-btn:hover {
+  background: #f9f9f9;
+  border-color: #888;
+}
+
+.copy-btn.copied {
+  color: #2563eb;  
+  border-color: #2563eb;
+}
+
 .visualization-toggle {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
