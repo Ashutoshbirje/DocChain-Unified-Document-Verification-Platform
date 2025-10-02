@@ -109,7 +109,7 @@ cd frontend
 npm start
 ```
 
-- Option 2:Run with Docker 
+- Option 2: Run with Docker 
 ```bash
 # To run in detached mode (background)
 docker-compose up --build -d
