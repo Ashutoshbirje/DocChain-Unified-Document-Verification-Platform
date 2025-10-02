@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DocChain-Unified-Document-Verification-Platform/static/css/main.040fdbfe.css",
-    "main.js": "/DocChain-Unified-Document-Verification-Platform/static/js/main.dd019821.js",
+    "main.js": "/DocChain-Unified-Document-Verification-Platform/static/js/main.1e4bf9a2.js",
     "index.html": "/DocChain-Unified-Document-Verification-Platform/index.html",
     "main.040fdbfe.css.map": "/DocChain-Unified-Document-Verification-Platform/static/css/main.040fdbfe.css.map",
-    "main.dd019821.js.map": "/DocChain-Unified-Document-Verification-Platform/static/js/main.dd019821.js.map"
+    "main.1e4bf9a2.js.map": "/DocChain-Unified-Document-Verification-Platform/static/js/main.1e4bf9a2.js.map"
   },
   "entrypoints": [
     "static/css/main.040fdbfe.css",
-    "static/js/main.dd019821.js"
+    "static/js/main.1e4bf9a2.js"
   ]
 }
