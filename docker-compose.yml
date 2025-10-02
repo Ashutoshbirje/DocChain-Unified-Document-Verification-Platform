@@ -1,8 +1,8 @@
-version: "3.9"
 
 services:
   backend:
     build: ./backend
+    image: ashutoshbirje880/docchain-backend:latest
     container_name: docchain-backend
     env_file:
       - ./backend/.env
@@ -13,6 +13,7 @@ services:
 
   frontend:
     build: ./frontend
+    image: ashutoshbirje880/docchain-frontend:latest
     container_name: docchain-frontend
     ports:
       - "3000:80"

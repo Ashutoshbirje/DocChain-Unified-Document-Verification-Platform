@@ -97,6 +97,8 @@ PINATA_GATEWAY=https://gateway.pinata.cloud/ipfs/
 ```
 
 5. **Start the Application**
+
+- Option 1: Run locally
 ```bash
 # Terminal 1 - Backend
 cd backend
@@ -105,6 +107,12 @@ npm server.js
 # Terminal 2 - Frontend
 cd frontend
 npm start
+```
+
+- Option 2:Run with Docker 
+```bash
+# To run in detached mode (background)
+docker-compose up --build -d
 ```
 
 6. **Access the Application**
