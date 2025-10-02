@@ -1,23 +1,20 @@
-# Use official Node.js LTS Alpine image
-FROM node:18-alpine
+# Use official Node.js LTS image
+FROM node:20-alpine
 
-# Set working directory inside container
+# Set working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json first for caching
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Install only production dependencies
-RUN npm install --production
+# Install dependencies
+RUN npm install
 
 # Copy the rest of the backend code
 COPY . .
 
-# Expose backend port
+# Expose port
 EXPOSE 5000
 
-# Set environment variable
-ENV NODE_ENV=production
-
 # Start the server
-CMD ["node", "server.js"]
+CMD ["npm", "start"]

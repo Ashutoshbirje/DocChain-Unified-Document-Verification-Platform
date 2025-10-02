@@ -161,7 +161,6 @@ router.post('/user/verify', auth, upload.single('file'), async (req, res) => {
       console.error('Failed to send verification email:', emailError);
       // Don't fail the verification if email fails
     }
-
     return res.json(result);
   } catch (err) {
     console.error(err);
